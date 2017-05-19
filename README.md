@@ -101,7 +101,7 @@ Consult the React Native documentation on how to [install React Native using Coc
 Add the following to your project's `AppDelegate.m`:
 
 ```objc
-#import "Orientation.h" // <--- import
+#import "../../node_modules/react-native-orientation/iOS/RCTOrientation/Orientation.h" // <--- import
 
 @implementation AppDelegate
 
